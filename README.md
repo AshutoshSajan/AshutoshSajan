@@ -82,11 +82,10 @@ Full Stack **(MERN)** developer from **India** who loves building backends, APIs
 > 💡 Want more? Browse all [119+ repositories](https://github.com/AshutoshSajan?tab=repositories).
 
 <p align="center">
-  <a href="https://github.com/AshutoshSajan/react-native-todo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshSajan&repo=react-native-todo&theme=tokyonight&hide_border=true" alt="pin1" /></a>
-  <a href="https://github.com/AshutoshSajan/url-shortener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshSajan&repo=url-shortener&theme=tokyonight&hide_border=true" alt="pin2" /></a>
-  <br/>
-  <a href="https://github.com/AshutoshSajan/quiz-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshSajan&repo=quiz-app&theme=tokyonight&hide_border=true" alt="pin3" /></a>
-  <a href="https://github.com/AshutoshSajan/conduit-clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshSajan&repo=conduit-clone&theme=tokyonight&hide_border=true" alt="pin4" /></a>
+  <a href="https://github.com/AshutoshSajan/react-native-todo"><img src="https://img.shields.io/github/stars/AshutoshSajan/react-native-todo?style=social" alt="react-native-todo stars" /></a>
+  <a href="https://github.com/AshutoshSajan/url-shortener"><img src="https://img.shields.io/github/stars/AshutoshSajan/url-shortener?style=social" alt="url-shortener stars" /></a>
+  <a href="https://github.com/AshutoshSajan/quiz-app"><img src="https://img.shields.io/github/stars/AshutoshSajan/quiz-app?style=social" alt="quiz-app stars" /></a>
+  <a href="https://github.com/AshutoshSajan/conduit-clone"><img src="https://img.shields.io/github/stars/AshutoshSajan/conduit-clone?style=social" alt="conduit-clone stars" /></a>
 </p>
 
 ---
@@ -94,17 +93,21 @@ Full Stack **(MERN)** developer from **India** who loves building backends, APIs
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AshutoshSajan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshutoshSajan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="langs" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AshutoshSajan&theme=tokyonight" alt="profile details" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AshutoshSajan&theme=tokyonight" alt="stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AshutoshSajan&theme=tokyonight" alt="top languages by repo" />
 </p>
 
 <p align="center">
   <img width="49%" src="https://streak-stats.demolab.com?user=AshutoshSajan&theme=tokyonight&hide_border=true" alt="streak" />
-  <img width="49%" src="https://github-profile-trophy.vercel.app/?username=AshutoshSajan&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" alt="trophy" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AshutoshSajan&theme=tokyo-night&hide_border=true&area=true" alt="activity" />
+  <img width="100%" src="https://ghchart.rshah.org/58a6ff/AshutoshSajan" alt="contribution chart" />
 </p>
 
 ---
