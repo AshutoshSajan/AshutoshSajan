@@ -1,3 +1,6 @@
+<!-- Hero wallpaper (swap this URL for a different banner if you like) -->
+<img width="100%" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600&h=500&auto=format&fit=crop" alt="developer wallpaper" />
+
 <!-- Header -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e1117,50:161b22,100:0d419d&height=180&section=header&text=Ashutosh%20Sajan&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%E2%80%A2%20MERN%20%E2%80%A2%20Backend%20%E2%80%A2%20Open%20Source&descAlignY=60&descAlign=50" alt="header" />
 
