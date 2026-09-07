@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AshutoshSajan — GitHub Profile Preview</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #010409;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    background: #0d1117;
+    border-bottom: 1px solid #30363d;
+    padding: 12px 20px;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  .topbar .dot { width: 12px; height: 12px; border-radius: 50%; background: #58a6ff; box-shadow: 0 0 12px #58a6ff; }
+  .topbar h1 { font-size: 15px; margin: 0; font-weight: 600; }
+  .topbar span.sub { font-size: 12px; color: #8b949e; }
+  .topbar .spacer { flex: 1; }
+  .btn {
+    font-size: 12px; color: #e6edf3; background: #21262d;
+    border: 1px solid #30363d; border-radius: 6px;
+    padding: 6px 12px; cursor: pointer; text-decoration: none;
+  }
+  .btn:hover { background: #30363d; }
+  .btn.primary { background: #238636; border-color: #2ea043; }
+  .btn.primary:hover { background: #2ea043; }
+  .wrap {
+    max-width: 900px; margin: 24px auto 60px; padding: 0 16px;
+  }
+  .profile-card {
+    border: 1px solid #30363d; border-radius: 12px;
+    overflow: hidden; background: #0d1117;
+  }
+  .profile-head {
+    padding: 10px 16px; border-bottom: 1px solid #30363d;
+    display: flex; align-items: center; gap: 10px;
+    font-size: 13px; color: #8b949e;
+  }
+  .profile-head img.avatar {
+    width: 20px; height: 20px; border-radius: 50%;
+  }
+  .markdown-body {
+    padding: 32px;
+    background: #0d1117 !important;
+  }
+  .markdown-body table { display: table; width: 100%; }
+  .markdown-body img { max-width: 100%; }
+  #status { font-size: 12px; color: #8b949e; }
+  #status.ok { color: #3fb950; }
+  #status.err { color: #f85149; }
+  @media (max-width: 640px) { .markdown-body { padding: 18px; } }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="dot"></div>
+    <h1>AshutoshSajan / AshutoshSajan</h1>
+    <span class="sub">✨ profile README preview — looks exactly like GitHub</span>
+    <div class="spacer"></div>
+    <span id="status">loading README.md…</span>
+    <button class="btn" onclick="loadReadme()">↻ Refresh</button>
+    <a class="btn primary" href="./README.md" target="_blank">View raw README</a>
+  </div>
+
+  <div class="wrap">
+    <div class="profile-card">
+      <div class="profile-head">
+        <img class="avatar" src="https://github.com/AshutoshSajan.png" alt="avatar" onerror="this.style.display='none'" />
+        <span><b style="color:#e6edf3">AshutoshSajan</b> &nbsp;/&nbsp; README.md</span>
+      </div>
+      <article id="content" class="markdown-body">Loading…</article>
+    </div>
+    <p style="text-align:center;color:#8b949e;font-size:12px;margin-top:16px">
+      Preview runs locally — push to <b>main</b> and your real GitHub profile updates instantly.<br/>
+      Serve with: <code>python3 -m http.server 8000</code> → open <code>http://localhost:8000/preview.html</code>
+    </p>
+  </div>
+
+<script>
+async function loadReadme() {
+  const el = document.getElementById('content');
+  const status = document.getElementById('status');
+  status.textContent = 'loading README.md…';
+  status.className = '';
+  try {
+    const res = await fetch('./README.md', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const md = await res.text();
+    marked.setOptions({ breaks: true, gfm: true });
+    el.innerHTML = marked.parse(md);
+    status.textContent = '✓ rendered ' + new Date().toLocaleTimeString();
+    status.className = 'ok';
+    window.scrollTo({ top: 0 });
+  } catch (e) {
+    status.textContent = '✗ could not fetch README.md — run via http.server, not file://';
+    status.className = 'err';
+    el.innerHTML = '<p>Could not load <code>./README.md</code>. Start a local server in this folder:<br/><br/><code>python3 -m http.server 8000</code><br/>then open <code>http://localhost:8000/preview.html</code></p><p><small>' + e + '</small></p>';
+  }
+}
+loadReadme();
+</script>
+</body>
+</html>
