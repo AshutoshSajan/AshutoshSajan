@@ -14,32 +14,6 @@
 
 ---
 
-### 👋 About me
-
-<table>
-<tr>
-<td width="60%">
-
-Full Stack **(MERN)** developer from **India** who loves building backends, APIs, and dev tools — and breaking them just to learn how they work.
-
-- 🔭 Currently tinkering with **Docker, Go, Rust & Zig**
-- 🌱 Exploring **system design, queues (Kafka / RabbitMQ), Redis & GraphQL**
-- 🛠️ I build **REST + GraphQL APIs, realtime apps, CLI/TUI tools & React Native apps**
-- 📝 I occasionally write on [Medium](https://medium.com/@ashutosh_sajan)
-- 📫 Reach me at **AshutoshSajan1213@gmail.com**
-- ⚡ Fun fact: I have **119+ public repos** — I learn by shipping
-
-</td>
-<td width="40%" align="center">
-  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding" width="100%" style="border-radius:12px; max-width:320px;" />
-  <br/>
-  <a href="https://github.com/AshutoshSajan?tab=repositories"><img src="https://img.shields.io/badge/View_My_Work-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="work" /></a>
-</td>
-</tr>
-</table>
-
----
-
 ### 🛠️ Tech Stack
 
 <p align="center">
