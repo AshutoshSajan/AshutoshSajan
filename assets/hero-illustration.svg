@@ -67,7 +67,7 @@
   </g>
   <g font-family="-apple-system,'Segoe UI',Inter,Roboto,sans-serif">
     <text x="106" y="216" font-size="86" font-weight="800" letter-spacing="1" fill="url(#nameGrad)">Ashutosh Sajan</text>
-    <text x="110" y="276" font-size="30" fill="#8b949e">Full Stack (MERN)  •  Backend  •  Open Source</text>
+    <text x="110" y="276" font-size="30" fill="#8b949e">Full Stack Developer  •  Backend  •  Open Source</text>
     <text x="110" y="344" font-size="24" fill="#c9d1d9">I build backends, APIs &amp; dev tools that scale</text>
   </g>
   <rect x="110" y="302" width="180" height="5" rx="2.5" fill="url(#accentBar)"/>
@@ -170,8 +170,8 @@
         <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="4.1s" repeatCount="indefinite"/>
       </g>
       <g>
-        <rect x="1148" y="62" width="66" height="34" rx="17" fill="#0d1117" stroke="#00add8" stroke-width="1.6"/>
-        <text x="1181" y="85" fill="#00add8">Go</text>
+        <rect x="1131" y="62" width="100" height="34" rx="17" fill="#0d1117" stroke="#ffd43b" stroke-width="1.6"/>
+        <text x="1181" y="85" fill="#ffd43b">Python</text>
         <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3s" repeatCount="indefinite"/>
       </g>
       <g>

@@ -2,7 +2,7 @@
 <img width="100%" src="./assets/hero-illustration.svg" alt="Ashutosh Sajan — Full Stack Developer" />
 
 <p align="center">
-  <a href="https://github.com/AshutoshSajan"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full+Stack+(MERN)+Developer;Backend+%26+API+Engineer;119%2B+Public+Repos+and+counting;Always+learning+Go,+Rust,+Zig,+Elixir" alt="typing" /></a>
+  <a href="https://github.com/AshutoshSajan"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Backend+%26+API+Engineer;119%2B+Public+Repos+and+counting;Always+learning+Go,+Rust,+Zig,+Elixir" alt="typing" /></a>
 </p>
 
 <p align="center">
