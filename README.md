@@ -76,8 +76,8 @@
 </p>
 
 <p align="center">
-  <img width="49%" src="https://streak-stats.demolab.com?user=AshutoshSajan&theme=tokyonight&hide_border=true" alt="streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
+  <img height="195" src="https://streak-stats.demolab.com?user=AshutoshSajan&theme=tokyonight&hide_border=true" alt="streak" />
+  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
 </p>
 
 <p align="center">

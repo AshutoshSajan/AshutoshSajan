@@ -63,7 +63,7 @@
 
   <!-- left : identity -->
   <g font-family="'JetBrains Mono','Fira Code',SFMono-Regular,Consolas,monospace">
-    <text x="110" y="116" font-size="30" fill="#3fb950">&gt; Hello, World!</text>
+    <text x="110" y="116" font-size="30" fill="#3fb950">$ whoami</text>
   </g>
   <g font-family="-apple-system,'Segoe UI',Inter,Roboto,sans-serif">
     <text x="106" y="216" font-size="86" font-weight="800" letter-spacing="1" fill="url(#nameGrad)">Ashutosh Sajan</text>
