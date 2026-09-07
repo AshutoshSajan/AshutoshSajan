@@ -81,17 +81,11 @@
   <img width="39%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
 </p>
 
-<p align="center">
-  <img width="100%" src="https://ghchart.rshah.org/58a6ff/AshutoshSajan" alt="contribution chart" />
-</p>
-
 ---
 
 ### 🐍 Contribution Snake
 
 ![snake](https://raw.githubusercontent.com/AshutoshSajan/AshutoshSajan/output/github-contribution-grid-snake.svg)
-
-> _Snake animation is generated automatically. If you don't see it yet, it will appear after the workflow runs once._
 
 ---
 
