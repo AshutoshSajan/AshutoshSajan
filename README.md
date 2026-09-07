@@ -76,8 +76,9 @@
 </p>
 
 <p align="center">
-  <img height="195" src="https://streak-stats.demolab.com?user=AshutoshSajan&theme=tokyonight&hide_border=true" alt="streak" />
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
+  <!-- 59/39 widths match the two cards' aspect ratios, so they stay parallel at equal height -->
+  <img width="59%" src="https://streak-stats.demolab.com?user=AshutoshSajan&theme=tokyonight&hide_border=true" alt="streak" />
+  <img width="39%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AshutoshSajan&theme=tokyonight" alt="most committed language" />
 </p>
 
 <p align="center">
